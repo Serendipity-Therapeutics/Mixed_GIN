@@ -1,0 +1,109 @@
+Found local copy...
+
+  0%|                                                                              | 0/5 [00:00<?, ?it/s]
+  generating training, validation splits...
+100%|████████████████████████████████████████████████████████████| 10504/10504 [00:01<00:00, 6705.91it/s]
+Epoch 1/100 - Train loss: 0.5220, acc: 0.7814 - Val loss: 0.4052, acc: 0.8705, AUPRC: 0.7339 6745.06it/s]
+Epoch 2/100 - Train loss: 0.3472, acc: 0.8950 - Val loss: 0.3414, acc: 0.8842, AUPRC: 0.7579
+Epoch 3/100 - Train loss: 0.2844, acc: 0.9051 - Val loss: 0.3028, acc: 0.8858, AUPRC: 0.7647
+Epoch 4/100 - Train loss: 0.2427, acc: 0.9158 - Val loss: 0.2847, acc: 0.8880, AUPRC: 0.7707
+Epoch 5/100 - Train loss: 0.2163, acc: 0.9233 - Val loss: 0.2814, acc: 0.8865, AUPRC: 0.7630
+Epoch 6/100 - Train loss: 0.1950, acc: 0.9305 - Val loss: 0.2752, acc: 0.8865, AUPRC: 0.7645
+Epoch 7/100 - Train loss: 0.1700, acc: 0.9389 - Val loss: 0.2854, acc: 0.8781, AUPRC: 0.7547
+Epoch 8/100 - Train loss: 0.1525, acc: 0.9451 - Val loss: 0.2874, acc: 0.8842, AUPRC: 0.7568
+Epoch 9/100 - Train loss: 0.1340, acc: 0.9532 - Val loss: 0.2962, acc: 0.8781, AUPRC: 0.7412
+Epoch 10/100 - Train loss: 0.1193, acc: 0.9591 - Val loss: 0.3121, acc: 0.8736, AUPRC: 0.7353
+Epoch 11/100 - Train loss: 0.0983, acc: 0.9690 - Val loss: 0.3143, acc: 0.8736, AUPRC: 0.7372
+Epoch 12/100 - Train loss: 0.0864, acc: 0.9756 - Val loss: 0.3163, acc: 0.8766, AUPRC: 0.7380
+Epoch 13/100 - Train loss: 0.0801, acc: 0.9766 - Val loss: 0.3283, acc: 0.8751, AUPRC: 0.7368
+Epoch 14/100 - Train loss: 0.0736, acc: 0.9806 - Val loss: 0.3366, acc: 0.8698, AUPRC: 0.7343
+Epoch 15/100 - Train loss: 0.0670, acc: 0.9806 - Val loss: 0.3385, acc: 0.8728, AUPRC: 0.7268
+Epoch 16/100 - Train loss: 0.0638, acc: 0.9813 - Val loss: 0.3534, acc: 0.8705, AUPRC: 0.7244
+Early stopping triggered
+
+ 20%|█████████████▊                                                       | 1/5 [04:18<17:14, 258.56s/it]
+ generating training, validation splits...
+100%|████████████████████████████████████████████████████████████| 10504/10504 [00:01<00:00, 6749.44it/s]
+Epoch 1/100 - Train loss: 0.4622, acc: 0.8334 - Val loss: 0.3756, acc: 0.8751, AUPRC: 0.7579 6890.75it/s]
+Epoch 2/100 - Train loss: 0.3186, acc: 0.8946 - Val loss: 0.2990, acc: 0.8941, AUPRC: 0.7923
+Epoch 3/100 - Train loss: 0.2637, acc: 0.9066 - Val loss: 0.2813, acc: 0.8934, AUPRC: 0.8042
+Epoch 4/100 - Train loss: 0.2349, acc: 0.9159 - Val loss: 0.2663, acc: 0.8972, AUPRC: 0.8057
+Epoch 5/100 - Train loss: 0.2094, acc: 0.9208 - Val loss: 0.2631, acc: 0.8964, AUPRC: 0.8081
+Epoch 6/100 - Train loss: 0.1888, acc: 0.9311 - Val loss: 0.2567, acc: 0.9010, AUPRC: 0.8085
+Epoch 7/100 - Train loss: 0.1657, acc: 0.9398 - Val loss: 0.2662, acc: 0.8941, AUPRC: 0.7982
+Epoch 8/100 - Train loss: 0.1457, acc: 0.9508 - Val loss: 0.2717, acc: 0.8995, AUPRC: 0.7927
+Epoch 9/100 - Train loss: 0.1283, acc: 0.9572 - Val loss: 0.2882, acc: 0.8865, AUPRC: 0.7875
+Epoch 10/100 - Train loss: 0.1153, acc: 0.9641 - Val loss: 0.3044, acc: 0.8827, AUPRC: 0.7752
+Epoch 11/100 - Train loss: 0.0926, acc: 0.9729 - Val loss: 0.2976, acc: 0.8850, AUPRC: 0.7753
+Epoch 12/100 - Train loss: 0.0846, acc: 0.9757 - Val loss: 0.3082, acc: 0.8896, AUPRC: 0.7692
+Epoch 13/100 - Train loss: 0.0808, acc: 0.9775 - Val loss: 0.3222, acc: 0.8873, AUPRC: 0.7578
+Epoch 14/100 - Train loss: 0.0743, acc: 0.9791 - Val loss: 0.3303, acc: 0.8842, AUPRC: 0.7526
+Epoch 15/100 - Train loss: 0.0642, acc: 0.9834 - Val loss: 0.3333, acc: 0.8812, AUPRC: 0.7537
+Epoch 16/100 - Train loss: 0.0633, acc: 0.9847 - Val loss: 0.3371, acc: 0.8827, AUPRC: 0.7556
+Early stopping triggered
+
+ 40%|███████████████████████████▌                                         | 2/5 [08:13<12:14, 244.81s/it]
+ generating training, validation splits...
+100%|████████████████████████████████████████████████████████████| 10504/10504 [00:01<00:00, 6680.05it/s]
+Epoch 1/100 - Train loss: 0.4660, acc: 0.8340 - Val loss: 0.3626, acc: 0.8789, AUPRC: 0.7828 6695.93it/s]
+Epoch 2/100 - Train loss: 0.3230, acc: 0.8922 - Val loss: 0.3082, acc: 0.8858, AUPRC: 0.8084
+Epoch 3/100 - Train loss: 0.2676, acc: 0.9046 - Val loss: 0.2805, acc: 0.8941, AUPRC: 0.8209
+Epoch 4/100 - Train loss: 0.2361, acc: 0.9167 - Val loss: 0.2771, acc: 0.8850, AUPRC: 0.8183
+Epoch 5/100 - Train loss: 0.2083, acc: 0.9243 - Val loss: 0.2672, acc: 0.8934, AUPRC: 0.8240
+Epoch 6/100 - Train loss: 0.1864, acc: 0.9312 - Val loss: 0.2618, acc: 0.8934, AUPRC: 0.8244
+Epoch 7/100 - Train loss: 0.1663, acc: 0.9386 - Val loss: 0.2745, acc: 0.8911, AUPRC: 0.8148
+Epoch 8/100 - Train loss: 0.1487, acc: 0.9458 - Val loss: 0.2774, acc: 0.8972, AUPRC: 0.8136
+Epoch 9/100 - Train loss: 0.1326, acc: 0.9527 - Val loss: 0.2759, acc: 0.8964, AUPRC: 0.8182
+Epoch 10/100 - Train loss: 0.1150, acc: 0.9616 - Val loss: 0.2934, acc: 0.8934, AUPRC: 0.8066
+Epoch 11/100 - Train loss: 0.0961, acc: 0.9678 - Val loss: 0.3026, acc: 0.8880, AUPRC: 0.8004
+Epoch 12/100 - Train loss: 0.0866, acc: 0.9752 - Val loss: 0.3007, acc: 0.8911, AUPRC: 0.8070
+Epoch 13/100 - Train loss: 0.0795, acc: 0.9780 - Val loss: 0.3135, acc: 0.8926, AUPRC: 0.7974
+Epoch 14/100 - Train loss: 0.0771, acc: 0.9780 - Val loss: 0.3314, acc: 0.8896, AUPRC: 0.7980
+Epoch 15/100 - Train loss: 0.0676, acc: 0.9829 - Val loss: 0.3245, acc: 0.8873, AUPRC: 0.7927
+Epoch 16/100 - Train loss: 0.0613, acc: 0.9856 - Val loss: 0.3375, acc: 0.8865, AUPRC: 0.7808
+Early stopping triggered
+
+ 60%|█████████████████████████████████████████▍                           | 3/5 [12:10<08:02, 241.30s/it]
+ generating training, validation splits...
+100%|████████████████████████████████████████████████████████████| 10504/10504 [00:05<00:00, 2028.12it/s]
+Epoch 1/100 - Train loss: 0.5404, acc: 0.7433 - Val loss: 0.4286, acc: 0.8682, AUPRC: 0.7313 5574.38it/s]
+Epoch 2/100 - Train loss: 0.3529, acc: 0.8882 - Val loss: 0.3385, acc: 0.8941, AUPRC: 0.7609
+Epoch 3/100 - Train loss: 0.2853, acc: 0.9039 - Val loss: 0.3034, acc: 0.8972, AUPRC: 0.7706
+Epoch 4/100 - Train loss: 0.2471, acc: 0.9156 - Val loss: 0.2918, acc: 0.8987, AUPRC: 0.7713
+Epoch 5/100 - Train loss: 0.2190, acc: 0.9211 - Val loss: 0.2763, acc: 0.8896, AUPRC: 0.7771
+Epoch 6/100 - Train loss: 0.1946, acc: 0.9316 - Val loss: 0.2798, acc: 0.8941, AUPRC: 0.7691
+Epoch 7/100 - Train loss: 0.1754, acc: 0.9372 - Val loss: 0.2830, acc: 0.8888, AUPRC: 0.7639
+Epoch 8/100 - Train loss: 0.1557, acc: 0.9456 - Val loss: 0.2873, acc: 0.8911, AUPRC: 0.7581
+Epoch 9/100 - Train loss: 0.1377, acc: 0.9525 - Val loss: 0.2992, acc: 0.8819, AUPRC: 0.7470
+Epoch 10/100 - Train loss: 0.1118, acc: 0.9664 - Val loss: 0.3007, acc: 0.8827, AUPRC: 0.7469
+Epoch 11/100 - Train loss: 0.1046, acc: 0.9690 - Val loss: 0.3166, acc: 0.8759, AUPRC: 0.7400
+Epoch 12/100 - Train loss: 0.0956, acc: 0.9737 - Val loss: 0.3143, acc: 0.8804, AUPRC: 0.7340
+Epoch 13/100 - Train loss: 0.0904, acc: 0.9740 - Val loss: 0.3229, acc: 0.8812, AUPRC: 0.7312
+Epoch 14/100 - Train loss: 0.0814, acc: 0.9783 - Val loss: 0.3285, acc: 0.8728, AUPRC: 0.7225
+Epoch 15/100 - Train loss: 0.0761, acc: 0.9794 - Val loss: 0.3300, acc: 0.8766, AUPRC: 0.7256
+Early stopping triggered
+
+ 80%|███████████████████████████████████████████████████████▏             | 4/5 [15:58<03:55, 235.95s/it]
+ generating training, validation splits...
+100%|████████████████████████████████████████████████████████████| 10504/10504 [00:01<00:00, 6606.41it/s]
+Epoch 1/100 - Train loss: 0.5818, acc: 0.6874 - Val loss: 0.4350, acc: 0.8743, AUPRC: 0.7634 6617.04it/s]
+Epoch 2/100 - Train loss: 0.3667, acc: 0.8845 - Val loss: 0.3332, acc: 0.8873, AUPRC: 0.7844
+Epoch 3/100 - Train loss: 0.2882, acc: 0.9077 - Val loss: 0.3015, acc: 0.8888, AUPRC: 0.7877
+Epoch 4/100 - Train loss: 0.2507, acc: 0.9128 - Val loss: 0.2849, acc: 0.8888, AUPRC: 0.7861
+Epoch 5/100 - Train loss: 0.2203, acc: 0.9226 - Val loss: 0.2817, acc: 0.8865, AUPRC: 0.7861
+Epoch 6/100 - Train loss: 0.1934, acc: 0.9313 - Val loss: 0.2840, acc: 0.8827, AUPRC: 0.7725
+Epoch 7/100 - Train loss: 0.1788, acc: 0.9349 - Val loss: 0.2860, acc: 0.8804, AUPRC: 0.7685
+Epoch 8/100 - Train loss: 0.1565, acc: 0.9444 - Val loss: 0.2930, acc: 0.8835, AUPRC: 0.7605
+Epoch 9/100 - Train loss: 0.1400, acc: 0.9493 - Val loss: 0.3010, acc: 0.8812, AUPRC: 0.7554
+Epoch 10/100 - Train loss: 0.1206, acc: 0.9605 - Val loss: 0.3005, acc: 0.8819, AUPRC: 0.7588
+Epoch 11/100 - Train loss: 0.1081, acc: 0.9666 - Val loss: 0.3287, acc: 0.8736, AUPRC: 0.7407
+Epoch 12/100 - Train loss: 0.0985, acc: 0.9721 - Val loss: 0.3290, acc: 0.8789, AUPRC: 0.7438
+Epoch 13/100 - Train loss: 0.0927, acc: 0.9731 - Val loss: 0.3359, acc: 0.8759, AUPRC: 0.7347
+Epoch 14/100 - Train loss: 0.0818, acc: 0.9781 - Val loss: 0.3229, acc: 0.8804, AUPRC: 0.7409
+Epoch 15/100 - Train loss: 0.0769, acc: 0.9797 - Val loss: 0.3358, acc: 0.8751, AUPRC: 0.7295
+Early stopping triggered
+
+100%|█████████████████████████████████████████████████████████████████████| 5/5 [19:42<00:00, 236.49s/it]
+
+
+{'cyp2d6_veith': [0.792, 0.009]}

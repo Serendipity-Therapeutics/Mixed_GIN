@@ -12,7 +12,7 @@ from models.gin_infomax import GINBinaryClassifier
 
 get_admet_benchmarks = ADMETBenchmarks()
 group = admet_group(path='data/')
-selected_indices = [9]
+selected_indices = [9,10,11] #cyp'xxx'_veith
 for admet_benchmark in get_admet_benchmarks(selected_indices): 
     predictions_list= []
     for seed in tqdm([1,2,3,4,5]):
@@ -23,20 +23,24 @@ for admet_benchmark in get_admet_benchmarks(selected_indices):
         train, valid = group.get_train_valid_split(benchmark = name, split_type = 'default', seed = seed)
         task, log_scale = get_admet_benchmarks(name)
 
+        # data_loader
         train_dataset = SMILESDataset(train)
         valid_dataset = SMILESDataset(valid)
         train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
         valid_loader = DataLoader(valid_dataset, batch_size=32, shuffle=False)
 
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        
+        # load_model 
         model = GINBinaryClassifier()
         model.to(device)
 
         criterion = nn.BCELoss()
         optimizer = optim.Adam(model.parameters(), lr=1e-4)
         scheduler = Scheduler(optimizer, factor=0.5, patience=3)
-        early_stopping = EarlyStopping(patience=10, delta=0.001, path=f'checkpoint_{name}.pt')
+        early_stopping = EarlyStopping(patience=10, delta=0.001, path=f'.ckpt/checkpoint_{name}_{seed}.pt')
 
+        # train
         num_epochs = 100
         for epoch in range(num_epochs):
             model.train()
@@ -97,7 +101,8 @@ for admet_benchmark in get_admet_benchmarks(selected_indices):
             if early_stopping.early_stop:
                 print("Early stopping triggered")
                 break
-
+        
+        # test
         model.load_state_dict(torch.load(f'.ckpt/checkpoint_{name}_{seed}.pt'))
 
         test_dataset = SMILESDataset(test)
@@ -116,4 +121,3 @@ for admet_benchmark in get_admet_benchmarks(selected_indices):
 
     results = group.evaluate_many(predictions_list)
     print('\n\n{}'.format(results))
-    # {'caco2_wang': [6.328, 0.101]}
