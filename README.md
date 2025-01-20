@@ -11,6 +11,10 @@ Mixed_GIN/
 ├── .gitignore  
 ├── README.md  
 ├── main.py  
+├── .log/  
+│   ├── cyp2c9.log 
+│   ├── cyp2d6.log 
+│   └── cyp3a4.log
 ├── data/  
 │   ├── data_loader.py  
 │   └── tdc_benchmark.py                  
@@ -31,6 +35,7 @@ Mixed_GIN/
     - **`tdc_benchmark.py`**: Defines the `ADMETBenchmarks` class and other utilities to interface with the TDC benchmark suite.
 - **`models/`**: Contains model definitions. The key file `gin_infomax.py` implements a GIN-based model variant.
 - **`utils/`**: Contains utility modules, including custom loss functions (`loss_fn.py`) and various helper utilities (`util.py`) for scheduling, early stopping, and other training utilities.
+- **`.log/`**: The logging data about each cyp prediction test result
 
 ---
 
