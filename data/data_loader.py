@@ -1,10 +1,11 @@
+# data/data_loader.py
+
 from torch.utils.data import Dataset
 
 class SMILESDataset(Dataset):
     def __init__(self, dataframe):
-        
         self.smiles = dataframe['Drug'].tolist()
-        self.labels = dataframe.Y.values if 'Y' in dataframe.columns else None
+        self.labels = dataframe['Y'].values if 'Y' in dataframe.columns else None
 
     def __len__(self):
         return len(self.smiles)

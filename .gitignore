@@ -1,8 +1,11 @@
 .ckpt/
+.log/
 data/__pycache__
 data/admet_group/
 data/admet_group.zip
 models/__pycache__
 utils/__pycache__
+utils/check_cuda.py
 sweep_config.yaml
 sweep_test.py
+wandb

@@ -1,5 +1,8 @@
+# data/tdc_benchmark.py
+
 from tdc.benchmark_group import admet_group
 from tqdm import tqdm
+
 class ADMETBenchmarks:
     def __init__(self):
         self.benchmark_config = {
@@ -11,7 +14,7 @@ class ADMETBenchmarks:
             'pgp_broccatelli': ('binary', False),
             'bbb_martins': ('binary', False),
             'ppbr_az': ('regression', False),
-            'vdss_lombardo': ('regression', True),
+            'vdss_lombardo': ('regression', True),  # log_scale=True
             'cyp2c9_veith': ('binary', False),
             'cyp2d6_veith': ('binary', False),
             'cyp3a4_veith': ('binary', False),
@@ -41,20 +44,6 @@ class ADMETBenchmarks:
             return self.benchmark_config[key]
 
     def __getitem__(self, key):
-
         if isinstance(key, str):
             return self.benchmark_config[key]
         raise KeyError(f"Unsupported key type: {type(key)}")
-
-if __name__ == "__main__":
-    get_admet_benchmarks = ADMETBenchmarks()
-    group = admet_group(path='data/')
-    selected_indices = [2]
-    for admet_benchmark in get_admet_benchmarks(selected_indices): 
-        prediction_list= []
-        for seed in tqdm([1, 2, 3, 4, 5]):
-            benchmark = group.get(admet_benchmark)
-            predictions = {}
-            name = benchmark['name']
-            train, test = benchmark['train_val'], benchmark['test']
-            task, log_scale = get_admet_benchmarks(name)
